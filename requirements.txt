@@ -1,0 +1,16 @@
+# Core Dependencies (required)
+tqdm>=4.65.0
+
+# Optional - for enhanced NLP (not required for basic functionality)
+# Uncomment these if you want ML-based features and have Python 3.11 or earlier:
+# spacy>=3.5.0
+# scispacy>=0.5.1
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Optional - for keyword extraction using YAKE
+# yake>=0.4.8
+
+# Optional - for Jupyter notebook
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0

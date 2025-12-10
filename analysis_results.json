@@ -1,0 +1,133 @@
+{
+  "medical_entities": {
+    "Patient_Name": "Ms. Jones",
+    "Symptoms": [
+      "Head Impact",
+      "Hit My Head",
+      "Had Trouble Sleeping",
+      "Stiffness",
+      "Pain In My Neck",
+      "Occasional Back",
+      "Neck Pain",
+      "Back Ache",
+      "Back Pain",
+      "Discomfort",
+      "Trouble Sleeping",
+      "Whiplash"
+    ],
+    "Diagnosis": "Whiplash Injury",
+    "Treatment": [
+      "Physiotherapy",
+      "X-ray examination",
+      "Painkillers"
+    ],
+    "Current_Status": "Occasional backache",
+    "Prognosis": "Full recovery expected within six months"
+  },
+  "structured_summary": {
+    "Patient_Name": "Ms. Jones",
+    "Symptoms": [
+      "Head Impact",
+      "Hit My Head",
+      "Had Trouble Sleeping",
+      "Stiffness",
+      "Pain In My Neck",
+      "Occasional Back",
+      "Neck Pain",
+      "Back Ache",
+      "Back Pain",
+      "Discomfort",
+      "Trouble Sleeping",
+      "Whiplash"
+    ],
+    "Diagnosis": "Whiplash Injury",
+    "Treatment": [
+      "Physiotherapy",
+      "X-ray examination",
+      "Painkillers"
+    ],
+    "Current_Status": "Occasional backache",
+    "Prognosis": "Full recovery expected within six months"
+  },
+  "keywords": {
+    "medical_phrases": [
+      "Whiplash Injury",
+      "Physical Examination",
+      "Full Recovery",
+      "Long-Term Damage",
+      "Range Of Movement",
+      "Back Pain",
+      "Car Accident",
+      "Full Range",
+      "No Tenderness",
+      "Accident And Emergency",
+      "Six Months",
+      "Four Weeks"
+    ],
+    "top_keywords": [
+      "accident",
+      "back",
+      "neck and back",
+      "whiplash injury",
+      "back pain",
+      "physical examination",
+      "full recovery",
+      "pain",
+      "accident and emergency",
+      "car accident"
+    ]
+  },
+  "sentiment_analysis": {
+    "Sentiment": "Neutral",
+    "Confidence": 0.824,
+    "Indicators": [
+      "it was",
+      "i went",
+      "appreciate",
+      "thank",
+      "i had"
+    ]
+  },
+  "intent_analysis": {
+    "primary_intents": [
+      "Providing information",
+      "Reporting symptoms",
+      "Expressing gratitude"
+    ],
+    "sample_detections": [
+      {
+        "statement": "Good morning, doctor. I'm doing better, but I stil...",
+        "intent": "Reporting symptoms",
+        "confidence": 0.5
+      },
+      {
+        "statement": "Yes, it was on September 1st, around 12:30 in the ...",
+        "intent": "Providing information",
+        "confidence": 0.5
+      },
+      {
+        "statement": "Yes, I always do.  ",
+        "intent": "Providing information",
+        "confidence": 0.5
+      }
+    ]
+  },
+  "soap_note": {
+    "Subjective": {
+      "Chief_Complaint": "Neck and back pain",
+      "History_of_Present_Illness": "Yes, it was on September 1st, around 12:30 in the afternoon. I was driving from Cheadle Hulme to Manchester when I had to stop in traffic. Out of nowhere, another car hit me from behind, which pushed my car into the one in front. At first, I was just shocked. But then I realized I had hit my head on..."
+    },
+    "Objective": {
+      "Physical_Exam": "Full range of motion in cervical and lumbar spine, No tenderness on palpation, Muscles and spine in good condition.",
+      "Observations": "Patient appears in good general health, Normal mobility observed, No signs of permanent damage."
+    },
+    "Assessment": {
+      "Diagnosis": "Whiplash injury and Lower back strain",
+      "Severity": "Mild, improving"
+    },
+    "Plan": {
+      "Treatment": "Continue physiotherapy as needed, Use analgesics for pain relief as needed.",
+      "Follow_Up": "Expected full recovery within six months. Return if symptoms persist beyond this timeframe."
+    }
+  }
+}
